@@ -4,14 +4,14 @@
 	ch = checkout
 
 [core]
-  pager = delta
+	pager = delta
 
 [delta]
-  navigate = true
-  true-color = always
+	navigate = true
+	true-color = always
 
 [diff]
-  colorMoved = default
+	colorMoved = default
 
 [difftool]
 	prompt = false
@@ -20,10 +20,10 @@
 	defaultBranch = master
 
 [interactive]
-  diffFilter = delta --color-only
+	diffFilter = delta --color-only
 
 [merge]
-  conflictstyle = diff3
+	conflictstyle = diff3
 
 [push]
 	autoSetupRemote = True
@@ -31,7 +31,6 @@
 [user]
 	email = kataev.victor.1234@gmail.com
 	name = Kataev Victor
-
 
 [credential]
 	helper = store
