@@ -1,0 +1,17 @@
+[font]
+size = 14
+
+[font.normal]
+family = 'UbuntuMono Nerd Font'
+
+[window]
+# decorations = "none"
+startup_mode = "Maximized"
+title = 'Terminal'
+
+[window.padding]
+x = 7
+y = 0
+
+[selection]
+save_to_clipboard = true
